@@ -30,7 +30,7 @@ function loadData() {
         const saved = localStorage.getItem('appahorro_data');
         if (saved) {
             const parsed = JSON.parse(saved);
-            if (parsed.bna && parsed.bersa && parsed.galicia) return parsed;
+            if (parsed.bna && parsed.bersa && parsed.galicia && parsed.macro && parsed.icbc) return parsed;
         }
     } catch (e) {
         console.warn('Error loading saved data:', e);
@@ -50,7 +50,7 @@ function saveData() {
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 
-const bankTabs = $$('.bank-tab');
+const bankSelect = $('#bank-select');
 const cardSelect = $('#card-select');
 const categoryChipsContainer = $('#category-chips');
 const dayChipsContainer = $('#day-chips');
@@ -92,23 +92,17 @@ const CATEGORY_CLASSES = {
 
 // ---- Initialize ----
 function init() {
-    // Bank tab listeners
-    bankTabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            const bank = tab.dataset.bank;
-            if (bank !== state.currentBank) {
-                state.currentBank = bank;
-                state.selectedCard = 'Todas';
-                state.selectedCategory = 'Todos';
-                state.selectedDay = 'Todos';
-                updateAccentColors();
-                updateBankTabs();
-                renderCardSelect();
-                renderCategoryChips();
-                renderDayChips();
-                renderPromotions();
-            }
-        });
+    // Bank selector dropdown
+    bankSelect.addEventListener('change', (e) => {
+        state.currentBank = e.target.value;
+        state.selectedCard = 'Todas';
+        state.selectedCategory = 'Todos';
+        state.selectedDay = 'Todos';
+        updateAccentColors();
+        renderCardSelect();
+        renderCategoryChips();
+        renderDayChips();
+        renderPromotions();
     });
 
     // Card select dropdown
@@ -147,19 +141,16 @@ function updateAccentColors() {
     const colors = {
         bna: ['var(--accent-bna)', 'var(--accent-bna-glow)'],
         bersa: ['var(--accent-bersa)', 'var(--accent-bersa-glow)'],
-        galicia: ['var(--accent-galicia)', 'var(--accent-galicia-glow)']
+        galicia: ['var(--accent-galicia)', 'var(--accent-galicia-glow)'],
+        macro: ['var(--accent-macro)', 'var(--accent-macro-glow)'],
+        icbc: ['var(--accent-icbc)', 'var(--accent-icbc-glow)']
     };
     const [active, glow] = colors[state.currentBank] || colors.bna;
     root.style.setProperty('--accent-active', active);
     root.style.setProperty('--accent-glow', glow);
 }
 
-// ---- Update bank tabs ----
-function updateBankTabs() {
-    bankTabs.forEach(tab => {
-        tab.classList.toggle('active', tab.dataset.bank === state.currentBank);
-    });
-}
+
 
 // ---- Render card select dropdown ----
 function renderCardSelect() {
@@ -331,7 +322,7 @@ function getFilteredPromotions() {
 function renderPromotions() {
     const promos = getFilteredPromotions();
     const bankData = state.data[state.currentBank];
-    const bankNames = { bna: 'Banco Nación', bersa: 'Banco Entre Ríos', galicia: 'Banco Galicia' };
+    const bankNames = { bna: 'Banco Nación', bersa: 'Banco Entre Ríos', galicia: 'Banco Galicia', macro: 'Banco Macro', icbc: 'ICBC' };
     const bankName = bankNames[state.currentBank] || state.currentBank;
 
     // Status bar

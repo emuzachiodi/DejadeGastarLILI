@@ -862,5 +862,431 @@
                 "detalle": "Vuelta al Cole: hasta 18 cuotas sin interés en tecnología los jueves y viernes de febrero. Sin tope de reintegro."
             }
         ]
+    },
+    "macro": {
+        "lastUpdated": "2026-02-18",
+        "tarjetas": [
+            "Todas",
+            "VISA Crédito",
+            "VISA Platinum",
+            "VISA Signature Selecta",
+            "Mastercard",
+            "Mastercard Platinum",
+            "Mastercard Selecta",
+            "American Express"
+        ],
+        "promotions": [
+            {
+                "id": 301,
+                "comercio": "YPF",
+                "descripcion": "20% de ahorro los miércoles con MODO (Visa Platinum). Tope: $15.000/mes.",
+                "descuento": 20,
+                "tarjetas": [
+                    "VISA Platinum"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "20% de ahorro en YPF los miércoles pagando con MODO con Visa Platinum Macro. Tope: $15.000/mes/cliente."
+            },
+            {
+                "id": 302,
+                "comercio": "YPF",
+                "descripcion": "30% de ahorro los miércoles con MODO (Visa Signature Selecta). Tope: $25.000/mes.",
+                "descuento": 30,
+                "tarjetas": [
+                    "VISA Signature Selecta"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "30% de ahorro en YPF los miércoles pagando con MODO con Visa Signature Macro Selecta. Tope: $25.000/mes/cliente."
+            },
+            {
+                "id": 303,
+                "comercio": "COTO",
+                "descripcion": "Hasta 30% de reintegro los miércoles con MODO (Selecta). Tope: $25.000/mes.",
+                "descuento": 30,
+                "tarjetas": [
+                    "VISA Signature Selecta",
+                    "Mastercard Selecta"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "Hasta 30% de reintegro en COTO los miércoles pagando con App MODO o App Macro con tarjetas Selecta. Tope: $25.000/mes por marca de tarjeta."
+            },
+            {
+                "id": 304,
+                "comercio": "Supermercados adheridos",
+                "descripcion": "20% reintegro los miércoles (General). Tope: $15.000/mes.",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "Reintegro del 20% los miércoles en supermercados adheridos para Cartera General (tope $15.000/mes). Platinum: 25% (tope $20.000). Selecta: 30% (tope $25.000). Pago con MODO o App Macro."
+            },
+            {
+                "id": 305,
+                "comercio": "Farmacity",
+                "descripcion": "10% de descuento todos los días con MODO. Tope: $15.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Farmacia",
+                "detalle": "10% de descuento todos los días en Farmacity abonando con tarjetas Amex, Visa y/o Mastercard a través de MODO. Tope: $15.000/mes."
+            },
+            {
+                "id": 306,
+                "comercio": "FarmaPlus",
+                "descripcion": "15% de descuento mar/mié con MODO. Tope: $8.000. Compra mín: $50.000.",
+                "descuento": 15,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes",
+                    "Miércoles"
+                ],
+                "vigencia": "Hasta 30/04/2026",
+                "categoria": "Farmacia",
+                "detalle": "15% de descuento exclusivo los martes y miércoles en FarmaPlus pagando con MODO. Tope: $8.000. Compra mínima: $50.000."
+            },
+            {
+                "id": 307,
+                "comercio": "Gastronomía Verano",
+                "descripcion": "Hasta 30% de ahorro en gastronomía. Tope: hasta $30.000/mes (Selecta).",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Gastronomía",
+                "detalle": "Verano 2026: hasta 30% de ahorro en gastronomía. General: 10% (tope $10.000). Platinum: 20% (tope $20.000). Selecta: 30% (tope $30.000). Pago con MODO, Apple Pay o Google Pay."
+            },
+            {
+                "id": 308,
+                "comercio": "Vuelta al Cole - Librerías",
+                "descripcion": "Descuentos en librerías y accesorios escolares con MODO.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 12/03/2026",
+                "categoria": "Librería",
+                "detalle": "Vuelta al Cole: descuentos en librerías y accesorios escolares pagando con MODO o tecnología sin contacto."
+            },
+            {
+                "id": 309,
+                "comercio": "Vuelta al Cole - Indumentaria",
+                "descripcion": "Descuentos en indumentaria escolar con MODO.",
+                "descuento": 15,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 12/03/2026",
+                "categoria": "Indumentaria",
+                "detalle": "Vuelta al Cole: descuentos en indumentaria escolar y deportiva pagando con MODO o sin contacto. Beneficios según cartera."
+            },
+            {
+                "id": 310,
+                "comercio": "Espectáculos Verano",
+                "descripcion": "Hasta 30% de ahorro en espectáculos. Tope: hasta $100.000/mes (Selecta).",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Entretenimiento",
+                "detalle": "Verano 2026: hasta 30% de ahorro en espectáculos. General: 10% (tope $20.000). Preferencial: 20% (tope $50.000). Selecta: 30% (tope $100.000)."
+            },
+            {
+                "id": 311,
+                "comercio": "Hotelería Verano",
+                "descripcion": "Hasta 30% de ahorro en hotelería. Tope: hasta $100.000/mes (Selecta).",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Viajes",
+                "detalle": "Verano 2026: hasta 30% de ahorro en hotelería. General: 10%. Preferencial: 20%. Selecta: 30% (tope hasta $100.000/mes). Pago con MODO."
+            }
+        ]
+    },
+    "icbc": {
+        "lastUpdated": "2026-02-18",
+        "tarjetas": [
+            "Todas",
+            "VISA Débito",
+            "VISA Nacional",
+            "VISA Internacional",
+            "VISA Gold",
+            "VISA Platinum",
+            "VISA Signature",
+            "Mastercard",
+            "Mastercard Gold",
+            "Mastercard Platinum",
+            "Mastercard Black"
+        ],
+        "promotions": [
+            {
+                "id": 401,
+                "comercio": "Combustible (cuenta sueldo)",
+                "descripcion": "15% de descuento los martes con MODO (cuenta sueldo). Tope: $15.000/mes.",
+                "descuento": 15,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Combustible",
+                "detalle": "15% de descuento los martes en estaciones de servicio adheridas pagando con MODO para clientes con cuenta sueldo ICBC. Tope: $15.000/mes."
+            },
+            {
+                "id": 402,
+                "comercio": "La Anónima",
+                "descripcion": "20% de reintegro los jueves con MODO (Visa Débito). Tope: $10.000/semana.",
+                "descuento": 20,
+                "tarjetas": [
+                    "VISA Débito"
+                ],
+                "dias": [
+                    "Jueves"
+                ],
+                "vigencia": "Hasta 31/03/2026",
+                "categoria": "Supermercado",
+                "detalle": "20% de reintegro los jueves en Supermercados La Anónima pagando con Visa Débito ICBC a través de MODO. Tope: $10.000 semanal. Sucursales físicas."
+            },
+            {
+                "id": 403,
+                "comercio": "ICBC Mall",
+                "descripcion": "30% de reintegro con MODO (18-22/02). Tope: $50.000/transacción.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "18/02 al 22/02/2026",
+                "categoria": "Tecnología",
+                "detalle": "Año Nuevo Chino: 30% de reintegro en ICBC Mall pagando con MODO (Visa, Mastercard crédito y débito ICBC). Tope: $50.000/transacción, máx 5 reintegros por cliente."
+            },
+            {
+                "id": 404,
+                "comercio": "ICBC Mall",
+                "descripcion": "Hasta 18 cuotas sin interés en toda la tienda.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Tecnología",
+                "detalle": "Hasta 18 cuotas sin interés en ICBC Mall (electro, tecnología, hogar, deporte, libros, belleza, moda) con tarjetas Visa y Mastercard ICBC. TNA y CFT 0%."
+            },
+            {
+                "id": 405,
+                "comercio": "ICBC Mall - Tarjeta nueva",
+                "descripcion": "50% de ahorro en primera compra con Mastercard virtual nueva. Tope: $40.000.",
+                "descuento": 50,
+                "tarjetas": [
+                    "Mastercard"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Tecnología",
+                "detalle": "50% de ahorro en primera compra en ICBC Mall con nueva tarjeta de crédito virtual Mastercard ICBC. Tope: $40.000. Excluye turismo, giftcards y experiencias."
+            },
+            {
+                "id": 406,
+                "comercio": "Natural Life",
+                "descripcion": "20% de reintegro lun/vie con MODO. Tope: $5.000/transacción.",
+                "descuento": 20,
+                "tarjetas": [
+                    "VISA Crédito",
+                    "VISA Gold",
+                    "VISA Platinum",
+                    "VISA Signature",
+                    "Mastercard",
+                    "Mastercard Gold",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Viernes"
+                ],
+                "vigencia": "Hasta 30/06/2026",
+                "categoria": "Gastronomía",
+                "detalle": "20% de reintegro los lunes y viernes en Natural Life pagando con MODO con tarjetas de crédito Visa y Mastercard ICBC. Tope: $5.000 por transacción. Hasta 3 cuotas sin interés."
+            },
+            {
+                "id": 407,
+                "comercio": "Vuelta al Cole",
+                "descripcion": "Hasta 40% de descuento en locales adheridos (18-20/02). Sin tope.",
+                "descuento": 40,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes",
+                    "Miércoles",
+                    "Jueves"
+                ],
+                "vigencia": "18/02 al 20/02/2026",
+                "categoria": "Indumentaria",
+                "detalle": "Vuelta al Cole: hasta 40% de descuento en locales adheridos de indumentaria, uniformes y librerías (18-20 de febrero). También 20% sin tope y hasta 9 cuotas sin interés en jugueterías y útiles escolares."
+            },
+            {
+                "id": 408,
+                "comercio": "ICBC Mall - Ofertas relámpago",
+                "descripcion": "Hasta 50% de reintegro en gift cards seleccionadas. Tope: $25.000.",
+                "descuento": 50,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "23/02 al 01/03/2026",
+                "categoria": "Entretenimiento",
+                "detalle": "Año Nuevo Chino etapa 2: ofertas relámpago de hasta 50% de reintegro en tarjetas de regalo seleccionadas en ICBC Mall. Tope: $25.000."
+            },
+            {
+                "id": 409,
+                "comercio": "Viajes ICBC Mall / Almundo",
+                "descripcion": "Hasta 12 cuotas sin interés en vuelos, hoteles y paquetes.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Viajes",
+                "detalle": "Hasta 12 cuotas sin interés en vuelos, hoteles y paquetes nacionales a través de ICBC Mall/Almundo con tarjetas ICBC."
+            },
+            {
+                "id": 410,
+                "comercio": "Gastronomía",
+                "descripcion": "Descuentos en restaurantes los lunes.",
+                "descuento": 15,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Gastronomía",
+                "detalle": "Descuentos en restaurantes adheridos los lunes con tarjetas ICBC."
+            }
+        ]
     }
 }

@@ -22,6 +22,10 @@
     --accent-bersa-glow: rgba(16, 185, 129, 0.3);
     --accent-galicia: #f97316;
     --accent-galicia-glow: rgba(249, 115, 22, 0.3);
+    --accent-macro: #1d4ed8;
+    --accent-macro-glow: rgba(29, 78, 216, 0.3);
+    --accent-icbc: #dc2626;
+    --accent-icbc-glow: rgba(220, 38, 38, 0.3);
     --accent-active: var(--accent-bna);
     --accent-glow: var(--accent-bna-glow);
 
@@ -222,16 +226,24 @@ body::before {
 }
 
 .bank-tabs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: var(--space-sm);
+    display: flex;
+    gap: var(--space-xs);
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     background: var(--bg-secondary);
     border-radius: var(--border-radius-lg);
     padding: var(--space-xs);
     border: 1px solid var(--border-color);
 }
 
+.bank-tabs::-webkit-scrollbar {
+    display: none;
+}
+
 .bank-tab {
+    flex: 1 0 auto;
+    min-width: 0;
     display: flex;
     align-items: center;
     justify-content: center;

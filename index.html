@@ -44,19 +44,17 @@
 
     <!-- Bank Selector -->
     <section class="bank-selector-section">
-      <div class="bank-tabs">
-        <button class="bank-tab active" data-bank="bna">
-          <span class="bank-tab-icon">🏦</span>
-          <span class="bank-tab-name">Nación</span>
-        </button>
-        <button class="bank-tab" data-bank="bersa">
-          <span class="bank-tab-icon">🏛️</span>
-          <span class="bank-tab-name">Entre Ríos</span>
-        </button>
-        <button class="bank-tab" data-bank="galicia">
-          <span class="bank-tab-icon">🔶</span>
-          <span class="bank-tab-name">Galicia</span>
-        </button>
+      <div class="card-filter-header">
+        <span class="filter-label">🏦 Banco</span>
+      </div>
+      <div class="select-wrapper">
+        <select id="bank-select" class="custom-select">
+          <option value="bna" selected>🏦 Banco Nación</option>
+          <option value="bersa">🏛️ Banco Entre Ríos</option>
+          <option value="galicia">🔶 Banco Galicia</option>
+          <option value="macro">🟦 Banco Macro</option>
+          <option value="icbc">🔴 ICBC</option>
+        </select>
       </div>
     </section>
 
