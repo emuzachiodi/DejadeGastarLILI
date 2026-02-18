@@ -1,0 +1,866 @@
+{
+    "bna": {
+        "lastUpdated": "2026-02-18",
+        "tarjetas": [
+            "Todas",
+            "NATIVA Nación",
+            "NATIVA Internacional",
+            "VISA Gold",
+            "VISA Platinum",
+            "VISA Signature",
+            "Mastercard Gold",
+            "Mastercard Platinum",
+            "Mastercard Black"
+        ],
+        "promotions": [
+            {
+                "id": 1,
+                "comercio": "SHELL",
+                "descripcion": "30% de descuento los viernes con MODO BNA+. Tope de reintegro: $15.000/mes por petrolera.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Combustible",
+                "detalle": "Descuento del 30% en estaciones SHELL pagando con tarjetas de crédito Visa o Mastercard BNA a través de MODO BNA+. Tope de reintegro: $15.000 por cliente por mes por petrolera. Acumulable con otras petroleras hasta $60.000/mes."
+            },
+            {
+                "id": 2,
+                "comercio": "YPF",
+                "descripcion": "30% de descuento los viernes con MODO BNA+. Tope de reintegro: $15.000/mes por petrolera.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Combustible",
+                "detalle": "30% de ahorro en estaciones YPF pagando con tarjetas BNA a través de MODO BNA+. Tope: $15.000 por cliente/mes/petrolera. Usando las 4 petroleras adheridas podés ahorrar hasta $60.000/mes."
+            },
+            {
+                "id": 3,
+                "comercio": "AXION energy",
+                "descripcion": "30% de descuento los viernes con MODO BNA+. Tope de reintegro: $15.000/mes por petrolera.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Combustible",
+                "detalle": "Ahorrá un 30% en estaciones AXION energy los viernes con MODO BNA+. Tope: $15.000/mes por petrolera."
+            },
+            {
+                "id": 4,
+                "comercio": "GULF",
+                "descripcion": "30% de descuento los viernes con MODO BNA+. Tope de reintegro: $15.000/mes por petrolera.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Viernes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Combustible",
+                "detalle": "30% de ahorro en estaciones GULF los viernes pagando con MODO BNA+. Tope: $15.000/mes por petrolera."
+            },
+            {
+                "id": 5,
+                "comercio": "COTO",
+                "descripcion": "30% de descuento los miércoles con MODO BNA+. Tope de reintegro: $12.000 por miércoles.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "Reintegro del 30% los miércoles en supermercados COTO pagando con MODO BNA+. Tope: $12.000 por persona por miércoles. Usando los 2 miércoles del mes podés reintegrar hasta $24.000."
+            },
+            {
+                "id": 6,
+                "comercio": "COTO",
+                "descripcion": "20% de descuento los martes. Tope de reintegro: $25.000/mes. Compra mínima $60.000.",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Supermercado",
+                "detalle": "Descuento del 20% los martes en COTO para compras presenciales iguales o superiores a $60.000. Tope de reintegro: $25.000 por banco por mes."
+            },
+            {
+                "id": 7,
+                "comercio": "VITAL",
+                "descripcion": "30% de descuento los miércoles con MODO BNA+. Tope de reintegro: $12.000 por miércoles.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Miércoles"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "30% de ahorro los miércoles en supermercados VITAL pagando con MODO BNA+. Tope: $12.000 por persona por miércoles."
+            },
+            {
+                "id": 8,
+                "comercio": "GRIMOLDI",
+                "descripcion": "3 o 6 cuotas sin interés",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Indumentaria",
+                "detalle": "Comprá calzados GRIMOLDI en 3 o 6 cuotas sin interés con tarjetas BNA."
+            },
+            {
+                "id": 9,
+                "comercio": "MONTAGNE",
+                "descripcion": "3 o 6 cuotas sin interés",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Indumentaria",
+                "detalle": "Indumentaria y accesorios MONTAGNE en 3 o 6 cuotas sin interés."
+            },
+            {
+                "id": 10,
+                "comercio": "FARMAPLUS",
+                "descripcion": "10% de descuento y 3 cuotas sin interés. Sin tope.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Farmacia",
+                "detalle": "Descuento del 10% más financiación en 3 cuotas sin interés en FARMAPLUS."
+            },
+            {
+                "id": 11,
+                "comercio": "PARFUMERIE",
+                "descripcion": "10% de descuento y 6 cuotas sin interés",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Farmacia",
+                "detalle": "10% de descuento y hasta 6 cuotas sin interés en perfumería y cosmética."
+            },
+            {
+                "id": 12,
+                "comercio": "EL MUNDO DEL JUGUETE",
+                "descripcion": "10% de descuento y 3 cuotas sin interés",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Entretenimiento",
+                "detalle": "Juguetes con 10% de descuento y 3 cuotas sin interés con tarjetas BNA."
+            },
+            {
+                "id": 13,
+                "comercio": "TIENDA BNA+",
+                "descripcion": "Hasta 18 cuotas sin interés",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Tecnología",
+                "detalle": "Comprá en la Tienda oficial BNA+ con hasta 18 cuotas sin interés. Electrónica, hogar y más."
+            },
+            {
+                "id": 14,
+                "comercio": "YENNY",
+                "descripcion": "20% de descuento y 12 cuotas sin interés",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Librería",
+                "detalle": "Libros en YENNY con 20% de descuento más 12 cuotas sin interés."
+            },
+            {
+                "id": 15,
+                "comercio": "CÚSPIDE",
+                "descripcion": "10% de descuento y 3 cuotas sin interés",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Librería",
+                "detalle": "Descuento del 10% y 3 cuotas sin interés en librería CÚSPIDE."
+            }
+        ]
+    },
+    "bersa": {
+        "lastUpdated": "2026-02-18",
+        "tarjetas": [
+            "Todas",
+            "VISA Internacional",
+            "VISA Gold",
+            "VISA Platinum",
+            "VISA Signature",
+            "Mastercard Internacional",
+            "Mastercard Gold",
+            "Mastercard Platinum",
+            "Mastercard Black"
+        ],
+        "promotions": [
+            {
+                "id": 101,
+                "comercio": "McDonald's",
+                "descripcion": "25% de ahorro los sábados. Tope de reintegro: $15.000/mes.",
+                "descuento": 25,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Sábado"
+                ],
+                "vigencia": "Hasta 30/06/2026",
+                "categoria": "Gastronomía",
+                "detalle": "Ahorrá un 25% los sábados en McDonald's con tarjetas BERSA. Tope de reintegro: $15.000 por cliente por mes."
+            },
+            {
+                "id": 102,
+                "comercio": "Cines",
+                "descripcion": "50% de ahorro en entradas de cine. Tope de reintegro: $3.000/mes por cuenta.",
+                "descuento": 50,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 31/12/2026",
+                "categoria": "Entretenimiento",
+                "detalle": "50% de ahorro en entradas de cine con tarjetas BERSA. Tope de reintegro: $3.000 por cuenta por mes. Vigente 08/01/2026 al 31/12/2026."
+            },
+            {
+                "id": 103,
+                "comercio": "Supermercados adheridos",
+                "descripcion": "30% de ahorro los martes con MODO. Reintegro al instante.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "30% de ahorro en supermercados adheridos los martes pagando con MODO desde la app Banco Entre Ríos. El reintegro se acredita en el momento."
+            },
+            {
+                "id": 104,
+                "comercio": "Carrefour",
+                "descripcion": "30% de ahorro con MODO.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "30% de ahorro en Carrefour pagando con MODO desde la app Banco Entre Ríos."
+            },
+            {
+                "id": 105,
+                "comercio": "DIARCO",
+                "descripcion": "20% + 10% adicional para clientes BERSA con MODO.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "20% de descuento + 10% adicional para clientes Banco Entre Ríos pagando con MODO en DIARCO."
+            },
+            {
+                "id": 106,
+                "comercio": "Aerolíneas Argentinas",
+                "descripcion": "3 o 6 cuotas sin interés en vuelos nacionales",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Viajes",
+                "detalle": "Volá por Argentina con Aerolíneas en 3 o 6 cuotas sin interés con tarjetas BERSA."
+            },
+            {
+                "id": 107,
+                "comercio": "On City",
+                "descripcion": "Hasta 12 cuotas sin interés",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 31/03/2026",
+                "categoria": "Indumentaria",
+                "detalle": "Comprá en On City con hasta 12 cuotas sin interés usando tus tarjetas Banco Entre Ríos."
+            },
+            {
+                "id": 108,
+                "comercio": "Experiencias BERSA",
+                "descripcion": "20% de ahorro en festivales, recitales y gastronomía.",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Entretenimiento",
+                "detalle": "Experiencias únicas en festivales, recitales y gastronomía con tarjetas Banco Entre Ríos. 20% de ahorro los fines de semana."
+            },
+            {
+                "id": 109,
+                "comercio": "MODO - Transporte público",
+                "descripcion": "Viajá gratis pagando con QR MODO. Tope de reintegro: $10.000/mes.",
+                "descuento": 100,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes"
+                ],
+                "vigencia": "Hasta 22/02/2026",
+                "categoria": "Viajes",
+                "detalle": "Pagá con QR a través de MODO desde la app Banco Entre Ríos y viajá gratis en transporte público. Tope de reintegro: $10.000 por mes."
+            },
+            {
+                "id": 110,
+                "comercio": "Bono de bienvenida",
+                "descripcion": "Hasta $280.000 acreditando tu sueldo + 10% con MODO. Tope MODO: $10.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Otros",
+                "detalle": "Nuevos clientes que acrediten su sueldo reciben hasta $280.000 de bono y 10% extra de descuento con MODO. Tope MODO: $10.000 por mes."
+            },
+            {
+                "id": 111,
+                "comercio": "+500 comercios adheridos",
+                "descripcion": "Descuentos en más de 500 comercios en toda la provincia.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Otros",
+                "detalle": "Con tu tarjeta de crédito BERSA disfrutá descuentos en más de 500 comercios en toda la provincia."
+            }
+        ]
+    },
+    "galicia": {
+        "lastUpdated": "2026-02-18",
+        "tarjetas": [
+            "Todas",
+            "VISA Débito",
+            "VISA Crédito",
+            "VISA Gold",
+            "VISA Platinum",
+            "VISA Signature",
+            "Mastercard",
+            "Mastercard Gold",
+            "Mastercard Platinum",
+            "Mastercard Black",
+            "American Express"
+        ],
+        "promotions": [
+            {
+                "id": 201,
+                "comercio": "YPF",
+                "descripcion": "10% de ahorro los lunes con MODO (Mastercard). Tope de reintegro: $10.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "Mastercard",
+                    "Mastercard Gold",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "10% de ahorro en YPF los lunes pagando con MODO con tarjeta Mastercard Galicia. Tope: $10.000/mes. Clientes Éminent: 15% con tope de $15.000/mes. Cuenta sueldo: 10% extra (hasta $5.000 más)."
+            },
+            {
+                "id": 202,
+                "comercio": "Shell",
+                "descripcion": "10% de ahorro los lunes con MODO (Mastercard). Tope de reintegro: $10.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "Mastercard",
+                    "Mastercard Gold",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "10% de ahorro en Shell los lunes pagando con MODO Mastercard Galicia. Tope: $10.000/mes. Éminent: 15% (tope $15.000). Cuenta sueldo: 10% extra."
+            },
+            {
+                "id": 203,
+                "comercio": "Axion energy",
+                "descripcion": "10% de ahorro los lunes con MODO (Mastercard). Tope de reintegro: $10.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "Mastercard",
+                    "Mastercard Gold",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "10% de ahorro en Axion los lunes pagando con MODO Mastercard Galicia. Tope: $10.000/mes. Éminent: 15% (tope $15.000)."
+            },
+            {
+                "id": 204,
+                "comercio": "Puma Energy",
+                "descripcion": "10% de ahorro los lunes con MODO (Mastercard). Tope de reintegro: $10.000/mes.",
+                "descuento": 10,
+                "tarjetas": [
+                    "Mastercard",
+                    "Mastercard Gold",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Combustible",
+                "detalle": "10% de ahorro en Puma Energy los lunes pagando con MODO Mastercard Galicia. Tope: $10.000/mes. Éminent: 15% (tope $15.000)."
+            },
+            {
+                "id": 205,
+                "comercio": "Farmacity",
+                "descripcion": "25% de ahorro los jueves con MODO (Débito VISA). Tope: $10.000/cuenta/mes.",
+                "descuento": 25,
+                "tarjetas": [
+                    "VISA Débito"
+                ],
+                "dias": [
+                    "Jueves"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Farmacia",
+                "detalle": "25% de ahorro exclusivo los jueves en Farmacity pagando con MODO con tarjeta de Débito Visa Galicia. Tope: $10.000 por cuenta por mes. Además: hasta 3 cuotas sin interés todos los días con Visa, Mastercard y Amex."
+            },
+            {
+                "id": 206,
+                "comercio": "Farmacity",
+                "descripcion": "Hasta 3 cuotas sin interés todos los días con Visa, Mastercard y Amex.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Farmacia",
+                "detalle": "Comprá en Farmacity en hasta 3 cuotas sin interés con tarjetas Visa, Mastercard y American Express Galicia."
+            },
+            {
+                "id": 207,
+                "comercio": "Jumbo",
+                "descripcion": "25% de descuento los martes con MODO. Tope: $15.000/mes.",
+                "descuento": 25,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Supermercado",
+                "detalle": "Hasta 25% de descuento en comestibles, bebidas y productos frescos los martes en Jumbo pagando con MODO. Tope de reintegro: $15.000 mensuales."
+            },
+            {
+                "id": 208,
+                "comercio": "SuperChangomas",
+                "descripcion": "Hasta 3 cuotas sin interés.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 31/03/2026",
+                "categoria": "Supermercado",
+                "detalle": "Comprá en SuperChangomas con hasta 3 cuotas sin interés con tarjetas Galicia."
+            },
+            {
+                "id": 209,
+                "comercio": "Carrefour / Vea / Disco",
+                "descripcion": "Reintegros inmediatos y cuotas sin interés.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Supermercado",
+                "detalle": "Supermercados Carrefour, Vea y Disco con reintegros inmediatos y cuotas sin interés para clientes Galicia."
+            },
+            {
+                "id": 210,
+                "comercio": "Gastronomía Éminent",
+                "descripcion": "25% de ahorro todos los días en restaurantes. Tope: $25.000/mes.",
+                "descuento": 25,
+                "tarjetas": [
+                    "VISA Platinum",
+                    "VISA Signature",
+                    "Mastercard Platinum",
+                    "Mastercard Black"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Gastronomía",
+                "detalle": "Clientes Éminent: 25% de ahorro todos los días en gastronomía pagando con QR o sin contacto con tarjeta, celular o reloj. Tope: $25.000 por cliente al mes."
+            },
+            {
+                "id": 211,
+                "comercio": "Natural Life",
+                "descripcion": "20% de reintegro los martes con MODO. Tope: $10.000/mes.",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Martes"
+                ],
+                "vigencia": "Hasta 28/02/2026",
+                "categoria": "Gastronomía",
+                "detalle": "20% de reintegro los martes en Natural Life pagando con MODO (débito Visa, crédito Visa, Mastercard o Amex). Éminent: 25%. Tope: $10.000 por cliente por mes. Hasta 3 cuotas sin interés."
+            },
+            {
+                "id": 212,
+                "comercio": "Fuerza Bruta | AVEN 2026",
+                "descripcion": "15% de ahorro y 3 cuotas sin interés. Sin tope de reintegro.",
+                "descuento": 15,
+                "tarjetas": [
+                    "VISA Débito",
+                    "VISA Crédito",
+                    "VISA Gold",
+                    "VISA Platinum",
+                    "VISA Signature"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 05/04/2026",
+                "categoria": "Entretenimiento",
+                "detalle": "15% de ahorro y hasta 3 cuotas sin interés en precio contado para Fuerza Bruta AVEN 2026. Sin tope de reintegro. Compras en TicketFlash.com.ar con tarjetas Visa Galicia."
+            },
+            {
+                "id": 213,
+                "comercio": "Cúspide (Vuelta al Cole)",
+                "descripcion": "10% de reintegro y 9 cuotas sin interés. Sin tope de reintegro.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 27/02/2026",
+                "categoria": "Librería",
+                "detalle": "Vuelta al Cole: 10% de reintegro y hasta 9 cuotas sin interés en Cúspide con tarjetas Galicia (Visa Débito, Visa Crédito, Mastercard, Amex). Sin tope de reintegro. Online: 15% de ahorro y 3 CSI en cuspide.com."
+            },
+            {
+                "id": 214,
+                "comercio": "Librerías adheridas",
+                "descripcion": "10% de ahorro y 9 cuotas sin interés. Sin tope de reintegro.",
+                "descuento": 10,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Jueves",
+                    "Viernes"
+                ],
+                "vigencia": "Febrero 2026",
+                "categoria": "Librería",
+                "detalle": "Vuelta al Cole: 10% de ahorro sin tope de reintegro y hasta 9 cuotas sin interés en librerías adheridas, los jueves y viernes de febrero. Éminent: hasta 25%."
+            },
+            {
+                "id": 215,
+                "comercio": "Indumentaria infantil y deportiva",
+                "descripcion": "20% de ahorro y 9 cuotas sin interés. Tope: $40.000.",
+                "descuento": 20,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Jueves",
+                    "Viernes"
+                ],
+                "vigencia": "Febrero 2026",
+                "categoria": "Indumentaria",
+                "detalle": "Vuelta al Cole: 20% de descuento en indumentaria infantil y deportiva los jueves y viernes de febrero. Tope de reintegro: $40.000. Hasta 9 cuotas sin interés. Éminent: 25% sin tope."
+            },
+            {
+                "id": 216,
+                "comercio": "Almundo - Viajes",
+                "descripcion": "30% en asistencia al viajero. Tope: $500.000. Cuotas sin interés.",
+                "descuento": 30,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Hasta 15/02/2026",
+                "categoria": "Viajes",
+                "detalle": "En Almundo: 30% en asistencia al viajero internacional Platinum/Infinit (tope $500.000). Hasta USD 300 en paquetes a México. Hasta $250.000 en alquiler de autos. 10% en vuelos (tope $90.000)."
+            },
+            {
+                "id": 217,
+                "comercio": "Assist Card",
+                "descripcion": "12 cuotas sin interés en asistencia al viajero.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Lunes",
+                    "Martes",
+                    "Miércoles",
+                    "Jueves",
+                    "Viernes",
+                    "Sábado",
+                    "Domingo"
+                ],
+                "vigencia": "Vigente",
+                "categoria": "Viajes",
+                "detalle": "Asistencia al viajero Assist Card en hasta 12 cuotas sin interés para clientes Galicia."
+            },
+            {
+                "id": 218,
+                "comercio": "Tecnología (Vuelta al Cole)",
+                "descripcion": "Hasta 18 cuotas sin interés. Sin tope de reintegro.",
+                "descuento": 0,
+                "tarjetas": [
+                    "todas"
+                ],
+                "dias": [
+                    "Jueves",
+                    "Viernes"
+                ],
+                "vigencia": "Febrero 2026",
+                "categoria": "Tecnología",
+                "detalle": "Vuelta al Cole: hasta 18 cuotas sin interés en tecnología los jueves y viernes de febrero. Sin tope de reintegro."
+            }
+        ]
+    }
+}

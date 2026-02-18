@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Promociones y descuentos de tarjetas de crédito BNA y Banco Entre Ríos" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="APPAhorro" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <title>APPAhorro — Promociones Bancarias</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="logo-area">
+          <div class="logo-icon">💳</div>
+          <div>
+            <h1 class="app-title">APPAhorro</h1>
+            <p class="app-subtitle">Promociones Bancarias</p>
+          </div>
+        </div>
+        <button id="btn-refresh" class="btn-refresh" title="Actualizar promociones">
+          <svg class="refresh-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Bank Selector -->
+    <section class="bank-selector-section">
+      <div class="bank-tabs">
+        <button class="bank-tab active" data-bank="bna">
+          <span class="bank-tab-icon">🏦</span>
+          <span class="bank-tab-name">Nación</span>
+        </button>
+        <button class="bank-tab" data-bank="bersa">
+          <span class="bank-tab-icon">🏛️</span>
+          <span class="bank-tab-name">Entre Ríos</span>
+        </button>
+        <button class="bank-tab" data-bank="galicia">
+          <span class="bank-tab-icon">🔶</span>
+          <span class="bank-tab-name">Galicia</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Card Filter (Dropdown) -->
+    <section class="card-filter-section">
+      <div class="card-filter-header">
+        <span class="filter-label">💳 Tarjeta</span>
+      </div>
+      <div class="select-wrapper">
+        <select id="card-select" class="custom-select">
+          <!-- Generated dynamically -->
+        </select>
+      </div>
+    </section>
+
+    <!-- Category (Rubro) Filter -->
+    <section class="card-filter-section">
+      <div class="card-filter-header">
+        <span class="filter-label">🏷️ Filtrar por rubro</span>
+        <button id="btn-clear-category" class="btn-clear-filter" style="display:none;">Limpiar</button>
+      </div>
+      <div id="category-chips" class="card-chips">
+        <!-- Generated dynamically, sorted by highest discount -->
+      </div>
+    </section>
+
+    <!-- Day of Week Filter -->
+    <section class="card-filter-section">
+      <div class="card-filter-header">
+        <span class="filter-label">📅 Filtrar por día</span>
+        <button id="btn-clear-day" class="btn-clear-filter" style="display:none;">Limpiar</button>
+      </div>
+      <div id="day-chips" class="day-chips">
+        <!-- Generated dynamically -->
+      </div>
+    </section>
+
+    <!-- Status bar -->
+    <div id="status-bar" class="status-bar">
+      <span id="status-text" class="status-text"></span>
+      <span id="promo-count" class="promo-count"></span>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+      <div class="loading-spinner"></div>
+      <p class="loading-text">Actualizando promociones...</p>
+    </div>
+
+    <!-- Promotions List -->
+    <main id="promotions-list" class="promotions-list">
+      <!-- Generated dynamically -->
+    </main>
+
+    <!-- Toast -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
