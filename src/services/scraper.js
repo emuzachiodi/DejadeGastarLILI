@@ -69,8 +69,12 @@ function parseBNAPromotions(html) {
     allH2.forEach((h2, i) => {
       const text = h2.textContent.trim();
       if (text && text.length > 2 && text.length < 100 && !text.includes('Descuentos y Promociones')) {
-        const nextP = h2.nextElementSibling;
-        const desc = nextP?.textContent?.trim() || '';
+        let desc = '';
+        if (h2.nextSibling && h2.nextSibling.nodeType === 3 && h2.nextSibling.textContent.trim()) {
+            desc = h2.nextSibling.textContent.trim();
+        } else if (h2.nextElementSibling) {
+            desc = h2.nextElementSibling.textContent.trim();
+        }
         promos.push({
           id: i + 1,
           comercio: text,
@@ -125,15 +129,21 @@ function parseBERSAPromotions(html) {
     allH3.forEach((h3, i) => {
       const text = h3.textContent.trim();
       if (text && text.length > 2 && text.length < 100) {
+        let desc = '';
+        if (h3.nextSibling && h3.nextSibling.nodeType === 3 && h3.nextSibling.textContent.trim()) {
+            desc = h3.nextSibling.textContent.trim();
+        } else if (h3.nextElementSibling) {
+            desc = h3.nextElementSibling.textContent.trim();
+        }
         promos.push({
           id: 100 + i + 1,
           comercio: text,
-          descripcion: text,
+          descripcion: desc || text,
           tarjetas: ['todas'],
           vigencia: 'Vigente',
           categoria: categorizeBERSA(text),
-          descuento: extractDiscount(text),
-          detalle: ''
+          descuento: extractDiscount(text + " " + desc),
+          detalle: desc || ''
         });
       }
     });
