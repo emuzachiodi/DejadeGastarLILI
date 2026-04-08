@@ -56,6 +56,7 @@ function parseBNAPromotions(html) {
           tarjetas: ['todas'],
           vigencia: 'Vigente',
           categoria: categorizeBNA(title),
+          descuento: extractDiscount(title + " " + desc),
           detalle: desc || ''
         });
       }
@@ -77,6 +78,7 @@ function parseBNAPromotions(html) {
           tarjetas: ['todas'],
           vigencia: 'Vigente',
           categoria: categorizeBNA(text),
+          descuento: extractDiscount(text + " " + desc),
           detalle: desc
         });
       }
@@ -110,6 +112,7 @@ function parseBERSAPromotions(html) {
           tarjetas: ['todas'],
           vigencia: vigencia || 'Vigente',
           categoria: categorizeBERSA(title),
+          descuento: extractDiscount(title + " " + desc),
           detalle: desc || ''
         });
       }
@@ -129,6 +132,7 @@ function parseBERSAPromotions(html) {
           tarjetas: ['todas'],
           vigencia: 'Vigente',
           categoria: categorizeBERSA(text),
+          descuento: extractDiscount(text),
           detalle: ''
         });
       }
@@ -167,6 +171,23 @@ function categorizeBERSA(name) {
   if (n.includes('shell') || n.includes('ypf') || n.includes('combust')) return 'Combustible';
   if (n.includes('farma') || n.includes('parfum')) return 'Farmacia';
   return 'Otros';
+}
+
+/**
+ * Extract percentage discount from text
+ */
+function extractDiscount(text) {
+  if (!text) return 0;
+  const match = text.match(/(\d+)\s?%/);
+  if (match) return parseInt(match[1], 10);
+  
+  const lower = text.toLowerCase();
+  if (lower.includes('mitad de precio') || lower.includes('50 off') || lower.includes('2x1')) return 50;
+  if (lower.includes('3x2')) return 33;
+  if (lower.includes('4x3')) return 25;
+  if (lower.includes('gratis') || lower.includes('100%')) return 100;
+  
+  return 0;
 }
 
 /**
